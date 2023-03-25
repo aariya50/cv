@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body TEXT="#000068" LINK="#060FDF" VLINK="#060FDF" ALINK="#DC24C5" BGCOLOR="#FFFFFF">
+    <H1>Contact me through this form</H1>
+    <br>
+    <form action="mailto:screamy2001@outlook.com" method="post" enctype="text/plain">
+        <table>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+          </tr>
+          <tr>
+            <td><label for="message">Message:</label></td>
+            <td><textarea id="message" name="message" required></textarea></td>
+          </tr>
+          <input type="hidden" name="subject" value="From far far away">
+          <tr>
+            <td></td>
+            <td style="text-align: right;">
+                <button type="reset">Reset</button>
+                <button type="submit">Send</button> 
+            </td>
+          </tr>
+        </table>
+      </form>
+          
+</body>
+</html>
